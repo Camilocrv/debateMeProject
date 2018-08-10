@@ -1,0 +1,404 @@
+@media only screen and (min-width: 350px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/books-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container_login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .container_login_in {
+    width: 80%;
+    height: 850px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px 55px 37px 55px;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(#FF471A, #FF9933);
+  }
+  .container_login_content {}
+    .container_logo {
+      justify-content: center;
+      width: 160px;
+      height: 105px;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+    .login_title {
+      font-family: Inconsolotala;
+      font-size: 30px;
+      color: #33334D;
+      line-height: 1.2;
+      text-align: center;
+      display: block;
+      padding-bottom: 45px;
+      padding-top: 10px;
+    }
+    .logo {
+      width: 100%;
+    }
+    .username_container, .password_container {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+    }
+    .inputUsername, .input_password {
+      padding: 0 5px 0 38px;
+      height: 45px;
+      width: 100%;
+      display: block;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid rgba(255,255,255,0.24);
+    }
+    .containerRememberMe{
+      padding-left: 20px;
+      padding-top: 25px;
+      padding-bottom: 35px;
+    }
+    .rememberMe_label {
+      font-size: 16px;
+      font-family: Arial;
+      color: ;
+      line-height: 1.2;
+      padding-left: 35px;
+    }
+    .containerCheckbox {
+      display: block;
+      position: relative;
+    }
+    .rememberMeCheckbox {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+    }
+    .rememberMeCheckbox:before{
+      font-family: Material-Design-Icons-Font;
+      content: "/f26b";
+    }
+    .container_login_btn {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .login_btn {
+      font-family: Arial;
+      font-size: 16px;
+      color: #33334D;
+      min-width: 85px;
+      min-height: 40px;
+      line-height: 1.2;
+      border-radius: 25px;
+      border: none;
+      background: white;
+    }
+    /* .inputUsername::before, .input_password::before {
+      content: "\f007";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      color: #000;
+      font-size: 18px;
+      padding-right: 0.5em;
+      position: absolute;
+      top: 10px;
+      left: 0;
+    } */
+  }
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/books-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container_login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .container_login_in {
+    width: 500px;
+    height: 540px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px 55px 37px 55px;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(#FF471A, #FF9933);
+  }
+  .container_login_content {}
+  .container_logo {
+    justify-content: center;
+    width: 160px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .login_title {
+    font-family: Inconsolotala;
+    font-size: 30px;
+    color: #33334D;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    padding-bottom: 45px;
+    padding-top: 10px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .username_container, .password_container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .inputUsername, .input_password {
+    padding: 0 5px 0 38px;
+    height: 45px;
+    width: 100%;
+    display: block;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.24);
+  }
+  .containerRememberMe{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+  .rememberMe_label {
+    font-size: 16px;
+    font-family: Arial;
+    color: ;
+    line-height: 1.2;
+    padding-left: 35px;
+  }
+  .containerCheckbox {
+    display: block;
+    position: relative;
+  }
+  .rememberMeCheckbox {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+  }
+  .rememberMeCheckbox::before{
+    content: "/f26b"
+    font-family: Material-Design-Icons-Font;
+  }
+  .container_login_btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .login_btn {
+    font-family: Arial;
+    font-size: 16px;
+    color: #33334D;
+    min-width: 85px;
+    min-height: 40px;
+    line-height: 1.2;
+    border-radius: 25px;
+    border: none;
+    background: white;
+  }
+  .inputUsername::before, .input_password::before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/books-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container_login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .container_login_in {
+    width: 500px;
+    height: 540px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px 55px 37px 55px;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(#FF471a, #FF9933);
+  }
+  .container_login_content {}
+  .container_logo {
+    justify-content: center;
+    width: 160px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .login_title {
+    font-family: Inconsolotala;
+    font-size: 30px;
+    color: #33334D;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    padding-bottom: 45px;
+    padding-top: 10px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .username_container, .password_container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .inputUsername, .input_password {
+    padding: 0 5px 0 38px;
+    height: 45px;
+    width: 100%;
+    display: block;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.24);
+  }
+  .containerRememberMe{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .rememberMe_label {
+    font-size: 16px;
+    font-family: Arial;
+    color: ;
+    line-height: 1.2;
+    padding-left: 35px;
+  }
+  .containerCheckbox {
+    display: block;
+    position: relative;
+  }
+  .rememberMeCheckbox {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+  }
+  .rememberMeCheckbox::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f26b";
+    font-size: 2em;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container_login_btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .login_btn {
+    font-family: Arial;
+    font-size: 16px;
+    color: #33334d;
+    min-width: 85px;
+    min-height: 40px;
+    line-height: 1.2;
+    border-radius: 25px;
+    border: none;
+    background: white;
+  }
+  .login_btn:hover {
+    box-shadow: 1px 1px 1px 1px #FF471a;
+  }
+  .inputUsername:before {
+    content: url("../images/user_icon.svg");
+  }
+  .input_password::before {
+
+  }
+  .container_registrarse {
+    content: "";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+  .registrarse {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #33334D;
+    margin-bottom: 35px;
+    margin-left: 35px;
+  }
+  .registrarse:hover {
+    text-decoration: underline;
+  }
+}
+/*  https://colorlib.com/etc/lf/Login_v3/index.html

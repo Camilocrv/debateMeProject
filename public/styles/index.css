@@ -1,0 +1,305 @@
+
+  .header_container {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+  }
+  .titulo {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial;
+    color: #1A30033;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+  .username {
+    display: inline-block;
+    padding: 11px 3px 3px 3px;
+    margin-right: 15px;
+    font-family: Trocchi;
+    font-style: italic;
+    font-size: 15px;
+  }
+  .secondBody {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /* ul {
+    list-style: none;
+    margin-right: 30px;
+    float: left;
+    display: inline-block;
+    height: -webkit-fill-available;
+    width: auto;
+  } */
+  /* p {
+    width: auto;
+    height: auto;
+    padding-left: 8px;
+  } */
+  .user_comment {
+    box-sizing: border-box;
+    align-content: center;
+    width: auto;
+    height: auto;
+    resize: none;
+    overflow: hidden;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    font-size: 19px;
+    font-family: Josefin Slab;
+  }
+  /* a {
+    width: inherit;
+    height: inherit;
+  } */
+  .user_container_main {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .user_comment_container {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    padding-left: 30px;
+    margin-top: 30px;
+  }
+  .user_secondcomment_container{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    padding-left: 60px;
+    margin-top: 30px;
+  }
+  .user_container_header_main {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  .user_comment_container_header {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  .user_secondcomment_container_header{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  .user_container_header_main:hover {
+    border: 1px solid #c51162;
+  }
+  .user_comment_container_header:hover {
+    border: 1px solid #c51162;
+  }
+  .user_secondcomment_container_header:hover {
+    border: 1px solid #c51162;
+  }
+  .user_container_header_username_container_main {
+    width: 200px;
+    height: auto;
+    float: left;
+    line-height: 0.8;
+    border-right: 1px solid #f2f2f2;
+  }
+  .user_comment_container_header_username_container {
+    width: 200px;
+    height: auto;
+    float: left;
+    line-height: 0.8;
+    border-right: 1px solid #f2f2f2;
+  }
+  .user_secondcomment_container_header_username_container {
+    width: 200px;
+    height: auto;
+    float: left;
+    line-height: 0.8;
+    border-right: 1px solid #f2f2f2;
+  }
+  .user_container_header_username_container_main:hover {
+    border-right: 1px solid #ff80ab;
+  }
+  .user_comment_container_header_username_container:hover {
+    border-right: 1px solid #ff80ab;
+  }
+  .user_secondcomment_container_header_username_container:hover {
+    border-right: 1px solid #ff80ab;
+  }
+  .username_name_main {
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin: 0px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #c51162;
+  }
+  .username_comment_name {
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin: 0px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #c51162;
+  }
+  .username_secondcomment_name {
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin: 0px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #c51162;
+  }
+  .profile_picture_img {
+    border-radius: 50%;
+    height: 35px;
+    float: left;
+    margin-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .profile_picture_img_comment {
+    border-radius: 50%;
+    height: 35px;
+    float: left;
+    margin-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .user_container_header_buttons_main {
+    width: 45%;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    float: left;
+    flex-direction: row;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+  }
+  .user_container_header_buttons_main:hover {
+    border-left: 1px solid #FFC299;
+    border-right: 1px solid #FFC299;
+  }
+  .fav_button, .like_button, .reviews_button {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 4px;
+    background-color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+  }
+  .fav_button:hover, .like_button:hover, .reviews_button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .user_container_main_main {
+    height: auto;
+    overflow: hidden;
+    margin-top: 6px;
+  }
+  .user_comment_container_main {
+    height: auto;
+    overflow: hidden;
+    margin-top: 6px;
+  }
+  .user_secondcomment_container_main {
+    height: auto;
+    overflow: hidden;
+    margin-top: 6px;
+  }
+  .textarea_main {
+    outline: none;
+    resize: vertical;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 0px;
+    padding-left: 8px;
+    border: none;
+    font-size: 14px;
+  }
+  .textarea {
+    outline: none;
+    resize: vertical;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 0px;
+    padding-left: 8px;
+    border: none;
+    font-size: 14px;
+  }
+  textarea::after {
+
+  }
+  .user_container_footer_main {
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 0.5;
+    font-size: 11px;
+    font-family: monospace;
+  }
+  .user_comment_container_footer {
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 0.5;
+    font-size: 11px;
+    font-family: monospace;
+  }
+  .user_secondcomment_container_footer {
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    line-height: 0.5;
+    font-size: 11px;
+    font-family: monospace;
+  }
+  .user_container_footer_info_main {
+    display: flex;
+    flex-direction: row;
+  }
+  .user_comment_container_footer_info {
+    display: flex;
+    flex-direction: row;
+  }
+  .user_secondcomment_container_footer_info {
+    display: flex;
+    flex-direction: row;
+  }

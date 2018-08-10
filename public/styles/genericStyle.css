@@ -1,0 +1,81 @@
+@media only screen and (min-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .smallCard {
+    width: 60px;
+    height: 60px;
+    background-color: #fce4ec;
+  }
+  .smallCard:hover {
+    border: 2px solid #f48fb1;
+  }
+  .loginSocialButtons {
+    width: 2em;
+    height: 2em;
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    font-size: 2em;
+    float: left;
+    margin: 0 10px 0 10px;
+  }
+  .goBackButton {
+    width: 100%;
+    background-color: #009688;
+    line-height: 0;
+    border-radius: 0px;
+  }
+  .accessButtons {
+    background-color: #26a69a;
+    font-family: Lobster;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  .accessButtons:hover {
+    background-color: #00bfa5;
+  }
+  .loginUserView {
+    background-color: white;
+  }
+  blockquote {
+    border-left: 5px solid #004d40;
+  }
+  /* Tooltip container */
+  .tooltip {
+      position: relative;
+      display: inline-block;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #26a69a;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 15px;
+    font-family: 'Fjalla One', sans-serif;;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .loginSocialButtons {
+    width: 3em;
+    height: 3em;
+    font-size:1em;
+  }
+}

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) and (max-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .user_container {
+    width: auto;
+    height: auto;
+  }
+  .user_info {
+    width: auto;
+    height: auto;
+    margin-top: 130px;
+    margin-left: 410px;
+    display: inline-block;
+  }
+  .user_picture {
+    width: 90px;
+    border-radius: 50px;
+    border-right: 20px;
+    float: left;
+  }
+  .user_background {
+    width: auto;
+    height: auto;
+  }
+  .username {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 27px;
+    font-family: Arial;
+    color: #FF471a;
+  }
+}
